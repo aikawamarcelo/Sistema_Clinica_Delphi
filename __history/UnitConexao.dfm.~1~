@@ -1,0 +1,42 @@
+object tbAgendamentos: TtbAgendamentos
+  OldCreateOrder = False
+  Height = 360
+  Width = 582
+  object Conexao: TFDConnection
+    Params.Strings = (
+      'Database=clinica'
+      'User_Name=root'
+      'Server=localhost'
+      'DriverID=MySQL')
+    Connected = True
+    LoginPrompt = False
+    Left = 136
+    Top = 80
+  end
+  object tbPacientes: TFDTable
+    Active = True
+    IndexFieldNames = 'id'
+    Connection = Conexao
+    TableName = 'clinica.pacientes'
+    Left = 272
+    Top = 80
+  end
+  object dsPacientes: TDataSource
+    DataSet = tbPacientes
+    Left = 272
+    Top = 184
+  end
+  object tbAgendamentos: TFDTable
+    Active = True
+    IndexFieldNames = 'id'
+    Connection = Conexao
+    TableName = 'clinica.agendamentos'
+    Left = 424
+    Top = 80
+  end
+  object dsAgendamentos: TDataSource
+    DataSet = tbAgendamentos
+    Left = 424
+    Top = 184
+  end
+end

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/07/22 17:44:25.000.257,=C:\Users\Marcelo Aikawa\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/07/22 17:45:07.000.092,C:\Users\Marcelo Aikawa\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\Marcelo Aikawa\Documents\PROJETOS DELPHI\Aulas Augusto César\Projeto 6\SistemaClinica\UnitPrincipal.pas</Transaction>
+    <Transaction>2022/07/22 17:45:07.000.092,C:\Users\Marcelo Aikawa\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\Marcelo Aikawa\Documents\PROJETOS DELPHI\Aulas Augusto César\Projeto 6\SistemaClinica\UnitPrincipal.dfm</Transaction>
+    <Transaction>2022/07/22 17:45:28.000.155,C:\Users\Marcelo Aikawa\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\Marcelo Aikawa\Documents\PROJETOS DELPHI\Aulas Augusto César\Projeto 6\SistemaClinica\Clinica.dproj</Transaction>
+    <Transaction>2022/07/22 17:45:49.000.134,C:\Users\Marcelo Aikawa\Documents\PROJETOS DELPHI\Aulas Augusto César\Projeto 6\SistemaClinica\Clinica.dproj=C:\Users\Marcelo Aikawa\Documents\PROJETOS DELPHI\Aulas Augusto César\Projeto 6\SistemaClinica\Clinica.dproj</Transaction>
+    <Transaction>2022/07/22 23:02:27.000.113,=C:\Users\Marcelo Aikawa\Documents\PROJETOS DELPHI\Aulas Augusto César\Projeto 6\SistemaClinica\Unit2.pas</Transaction>
+    <Transaction>2022/07/22 23:03:27.000.121,C:\Users\Marcelo Aikawa\Documents\PROJETOS DELPHI\Aulas Augusto César\Projeto 6\SistemaClinica\UnitCadPacientes.dfm=C:\Users\Marcelo Aikawa\Documents\PROJETOS DELPHI\Aulas Augusto César\Projeto 6\SistemaClinica\Unit2.dfm</Transaction>
+    <Transaction>2022/07/22 23:03:27.000.121,C:\Users\Marcelo Aikawa\Documents\PROJETOS DELPHI\Aulas Augusto César\Projeto 6\SistemaClinica\UnitCadPacientes.pas=C:\Users\Marcelo Aikawa\Documents\PROJETOS DELPHI\Aulas Augusto César\Projeto 6\SistemaClinica\Unit2.pas</Transaction>
+    <Transaction>2022/07/22 23:03:43.000.631,=C:\Users\Marcelo Aikawa\Documents\PROJETOS DELPHI\Aulas Augusto César\Projeto 6\SistemaClinica\Unit3.pas</Transaction>
+    <Transaction>2022/07/22 23:04:10.000.652,C:\Users\Marcelo Aikawa\Documents\PROJETOS DELPHI\Aulas Augusto César\Projeto 6\SistemaClinica\UnitCadAgendamento.pas=C:\Users\Marcelo Aikawa\Documents\PROJETOS DELPHI\Aulas Augusto César\Projeto 6\SistemaClinica\Unit3.pas</Transaction>
+    <Transaction>2022/07/22 23:04:10.000.652,C:\Users\Marcelo Aikawa\Documents\PROJETOS DELPHI\Aulas Augusto César\Projeto 6\SistemaClinica\UnitCadAgendamento.dfm=C:\Users\Marcelo Aikawa\Documents\PROJETOS DELPHI\Aulas Augusto César\Projeto 6\SistemaClinica\Unit3.dfm</Transaction>
+    <Transaction>2022/07/23 11:51:58.000.194,=C:\Users\Marcelo Aikawa\Documents\PROJETOS DELPHI\Aulas Augusto César\Projeto 6\SistemaClinica\Unit1.pas</Transaction>
+    <Transaction>2022/07/23 14:40:27.000.887,C:\Users\Marcelo Aikawa\Documents\PROJETOS DELPHI\Aulas Augusto César\Projeto 6\SistemaClinica\Unit1.dfm=C:\Users\Marcelo Aikawa\Documents\PROJETOS DELPHI\Aulas Augusto César\Projeto 6\SistemaClinica\UnitConexao.dfm</Transaction>
+    <Transaction>2022/07/23 14:40:27.000.886,C:\Users\Marcelo Aikawa\Documents\PROJETOS DELPHI\Aulas Augusto César\Projeto 6\SistemaClinica\Unit1.pas=C:\Users\Marcelo Aikawa\Documents\PROJETOS DELPHI\Aulas Augusto César\Projeto 6\SistemaClinica\UnitConexao.pas</Transaction>
+  </Transactions>
+</BorlandProject>

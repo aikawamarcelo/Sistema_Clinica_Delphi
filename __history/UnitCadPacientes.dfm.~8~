@@ -1,0 +1,181 @@
+object frmCadPacientes: TfrmCadPacientes
+  Left = 0
+  Top = 0
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsSingle
+  Caption = 'Cadastro de Pacientes'
+  ClientHeight = 462
+  ClientWidth = 917
+  Color = clBtnHighlight
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poScreenCenter
+  PixelsPerInch = 96
+  TextHeight = 13
+  object lblID: TLabel
+    Left = 48
+    Top = 112
+    Width = 15
+    Height = 13
+    Caption = 'ID:'
+  end
+  object lblCPF: TLabel
+    Left = 216
+    Top = 112
+    Width = 23
+    Height = 13
+    Caption = 'CPF:'
+  end
+  object lblNome: TLabel
+    Left = 48
+    Top = 181
+    Width = 31
+    Height = 13
+    Caption = 'Nome:'
+  end
+  object lblCelular: TLabel
+    Left = 48
+    Top = 264
+    Width = 37
+    Height = 13
+    Caption = 'Celular:'
+  end
+  object lblDataCadastro: TLabel
+    Left = 248
+    Top = 264
+    Width = 89
+    Height = 13
+    Caption = 'Data de Cadastro:'
+  end
+  object lblBuscarPacientes: TLabel
+    Left = 567
+    Top = 112
+    Width = 80
+    Height = 13
+    Caption = 'Buscar Paciente:'
+  end
+  object Panel1: TPanel
+    Left = 0
+    Top = 0
+    Width = 917
+    Height = 89
+    Align = alTop
+    TabOrder = 0
+    ExplicitWidth = 719
+    object Label1: TLabel
+      Left = 48
+      Top = 26
+      Width = 258
+      Height = 28
+      Caption = 'Cadastro de Pacientes'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = 28
+      Font.Name = 'Tahoma'
+      Font.Style = [fsBold]
+      ParentFont = False
+    end
+  end
+  object DBID: TDBEdit
+    Left = 48
+    Top = 144
+    Width = 121
+    Height = 21
+    DataField = 'id'
+    DataSource = DM.dsPacientes
+    Enabled = False
+    TabOrder = 1
+  end
+  object DBNome: TDBEdit
+    Left = 48
+    Top = 216
+    Width = 481
+    Height = 21
+    DataField = 'nome'
+    DataSource = DM.dsPacientes
+    TabOrder = 2
+  end
+  object DBCelular: TDBEdit
+    Left = 48
+    Top = 296
+    Width = 169
+    Height = 21
+    DataField = 'celular'
+    DataSource = DM.dsPacientes
+    TabOrder = 3
+  end
+  object DBDataCadastro: TDBEdit
+    Left = 248
+    Top = 296
+    Width = 185
+    Height = 21
+    DataField = 'data_cadastro'
+    DataSource = DM.dsPacientes
+    TabOrder = 4
+  end
+  object DBCPF: TDBEdit
+    Left = 216
+    Top = 144
+    Width = 225
+    Height = 21
+    DataField = 'cpf'
+    DataSource = DM.dsPacientes
+    TabOrder = 5
+  end
+  object DBGrid1: TDBGrid
+    Left = 567
+    Top = 162
+    Width = 320
+    Height = 271
+    DataSource = DM.dsPacientes
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -11
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 6
+    TitleFont.Charset = DEFAULT_CHARSET
+    TitleFont.Color = clWindowText
+    TitleFont.Height = -11
+    TitleFont.Name = 'Tahoma'
+    TitleFont.Style = []
+    Columns = <
+      item
+        Expanded = False
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -21
+        Font.Name = 'Tahoma'
+        Font.Style = [fsBold]
+        Title.Caption = 'Pacientes Cadastrados'
+        Title.Font.Charset = DEFAULT_CHARSET
+        Title.Font.Color = clWindowText
+        Title.Font.Height = -13
+        Title.Font.Name = 'Tahoma'
+        Title.Font.Style = [fsBold]
+        Width = 305
+        Visible = True
+      end>
+  end
+  object DBNvPacientes: TDBNavigator
+    Left = 567
+    Top = 25
+    Width = 320
+    Height = 39
+    DataSource = DM.dsPacientes
+    TabOrder = 7
+  end
+  object txtBuscarPaciente: TEdit
+    Left = 567
+    Top = 135
+    Width = 320
+    Height = 21
+    TabOrder = 8
+    OnChange = txtBuscarPacienteChange
+  end
+end
